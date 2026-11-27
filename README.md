@@ -62,7 +62,7 @@ evaluated with the identical test-time sampler.
 <table width="100%">
 <thead>
 <tr>
-<th align="center" width="240">Method</th>
+<th align="left" width="240">Method</th>
 <th align="center" width="192">EgoTraj-TBD</th>
 <th align="center" width="120">ETH</th>
 <th align="center" width="120">HOTEL</th>
@@ -74,7 +74,7 @@ evaluated with the identical test-time sampler.
 </thead>
 <tbody>
 <tr>
-<td align="center">SGNet [38]</td>
+<td align="left">SGNet [38]</td>
 <td align="center">0.40 / 0.59</td>
 <td align="center">1.43 / 1.97</td>
 <td align="center">0.72 / 1.00</td>
@@ -84,7 +84,7 @@ evaluated with the identical test-time sampler.
 <td align="center">1.00 / 1.28</td>
 </tr>
 <tr>
-<td align="center">TUTR* [36]</td>
+<td align="left">TUTR* [36]</td>
 <td align="center">0.37 / 0.59</td>
 <td align="center">1.25 / 1.54</td>
 <td align="center">1.04 / 1.47</td>
@@ -94,7 +94,7 @@ evaluated with the identical test-time sampler.
 <td align="center">0.98 / 1.24</td>
 </tr>
 <tr>
-<td align="center">MoFlow [15]</td>
+<td align="left">MoFlow [15]</td>
 <td align="center">0.32 / 0.45</td>
 <td align="center">0.85 / 1.22</td>
 <td align="center">0.63 / 0.89</td>
@@ -104,7 +104,7 @@ evaluated with the identical test-time sampler.
 <td align="center">0.67 / 0.89</td>
 </tr>
 <tr>
-<td align="center">Resonance [41]</td>
+<td align="left">Resonance [41]</td>
 <td align="center">0.38 / 0.56</td>
 <td align="center">0.88 / 1.19</td>
 <td align="center">0.57 / 0.78</td>
@@ -114,7 +114,7 @@ evaluated with the identical test-time sampler.
 <td align="center">0.80 / 1.09</td>
 </tr>
 <tr>
-<td align="center">Social-Mamba [27]</td>
+<td align="left">Social-Mamba [27]</td>
 <td align="center">0.32 / 0.48</td>
 <td align="center">0.96 / 1.34</td>
 <td align="center">0.60 / 0.82</td>
@@ -124,7 +124,7 @@ evaluated with the identical test-time sampler.
 <td align="center">0.71 / 0.93</td>
 </tr>
 <tr>
-<td align="center">DD-MDN [19]</td>
+<td align="left">DD-MDN [19]</td>
 <td align="center">0.35 / 0.53</td>
 <td align="center">1.17 / 1.68</td>
 <td align="center">0.39 / 0.47</td>
@@ -134,7 +134,7 @@ evaluated with the identical test-time sampler.
 <td align="center">0.72 / 0.94</td>
 </tr>
 <tr>
-<td align="center">BiFlow [26]</td>
+<td align="left">BiFlow [26]</td>
 <td align="center">0.31 / 0.46</td>
 <td align="center">0.74 / 1.07</td>
 <td align="center">0.59 / 0.73</td>
@@ -144,7 +144,7 @@ evaluated with the identical test-time sampler.
 <td align="center">0.64 / 0.82</td>
 </tr>
 <tr>
-<td align="center"><b>ObsBridge (ours)</b></td>
+<td align="left"><b>ObsBridge (ours)</b></td>
 <td align="center"><b>0.29 / 0.42</b></td>
 <td align="center"><b>0.70 / 1.01</b></td>
 <td align="center"><b>0.50 / 0.60</b></td>
@@ -163,7 +163,7 @@ Ablation on EgoTraj-TBD (R = recovered-history conditioning, C = curriculum, A =
 <table width="100%">
 <thead>
 <tr>
-<th align="center" width="267">Model</th>
+<th align="left" width="267">Model</th>
 <th align="center" width="214">R</th>
 <th align="center" width="134">C</th>
 <th align="center" width="134">A</th>
@@ -174,7 +174,7 @@ Ablation on EgoTraj-TBD (R = recovered-history conditioning, C = curriculum, A =
 </thead>
 <tbody>
 <tr>
-<td align="center">BiFlow</td>
+<td align="left">BiFlow</td>
 <td align="center">✗</td>
 <td align="center">✗</td>
 <td align="center">✗</td>
@@ -183,7 +183,7 @@ Ablation on EgoTraj-TBD (R = recovered-history conditioning, C = curriculum, A =
 <td align="center">0.307 / 0.458</td>
 </tr>
 <tr>
-<td align="center">+ history</td>
+<td align="left">+ history</td>
 <td align="center">✓</td>
 <td align="center">✗</td>
 <td align="center">✗</td>
@@ -192,7 +192,7 @@ Ablation on EgoTraj-TBD (R = recovered-history conditioning, C = curriculum, A =
 <td align="center">0.310 / 0.457</td>
 </tr>
 <tr>
-<td align="center">+ curriculum</td>
+<td align="left">+ curriculum</td>
 <td align="center">✓</td>
 <td align="center">✓</td>
 <td align="center">✗</td>
@@ -201,7 +201,7 @@ Ablation on EgoTraj-TBD (R = recovered-history conditioning, C = curriculum, A =
 <td align="center">0.307 / 0.449</td>
 </tr>
 <tr>
-<td align="center">+ social attention</td>
+<td align="left">+ social attention</td>
 <td align="center">✓</td>
 <td align="center">✓</td>
 <td align="center">✓</td>
@@ -210,7 +210,7 @@ Ablation on EgoTraj-TBD (R = recovered-history conditioning, C = curriculum, A =
 <td align="center">0.307 / 0.448</td>
 </tr>
 <tr>
-<td align="center"><b>ObsBridge</b></td>
+<td align="left"><b>ObsBridge</b></td>
 <td align="center">✓</td>
 <td align="center">✓</td>
 <td align="center">✓</td>
