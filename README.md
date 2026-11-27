@@ -1,42 +1,15 @@
 <br>
 <div align="center">
 <h1 align="center"><strong>ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction</strong></h1>
-<p>
-  Zhenhao Wang<sup>*,1</sup>&emsp;
-  Shaofeng Liang<sup>*,&Dagger;,1,2</sup>&emsp;
-  Jiemin Wu<sup>*,1</sup>&emsp;
-  Sijia Chen<sup>3</sup>&emsp;
-  Keni Shi<sup>1</sup>&emsp;
-  Nan Li<sup>1</sup><br>
-  Wenshuo Chen<sup>1</sup>&emsp;
-  Bowen Tian<sup>1,2</sup>&emsp;
-  Runwei Guan<sup>1</sup>&emsp;
-  Yutao Yue<sup>1,4,&dagger;</sup>
-</p>
-<p>
-  <sup>1</sup>HKUST (Guangzhou)&emsp;
-  <sup>2</sup>EigenAct Technology&emsp;
-  <sup>3</sup>Huazhong University of Science and Technology&emsp;
-  <sup>4</sup>JITRI
-</p>
-<p>
-  <sup>*</sup>Equal contribution&emsp;<sup>&Dagger;</sup>Project lead&emsp;<sup>&dagger;</sup>Corresponding author
-</p>
 </div>
 
 <div id="top" align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2611.32447-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.32447)
-[![Paper](https://img.shields.io/badge/Paper-PDF-0065D3?logo=readthedocs&logoColor=white)](https://arxiv.org/pdf/2611.32447)
-[![Status](https://img.shields.io/badge/Status-Under%20Review-orange)]()
-[![Code](https://img.shields.io/badge/Code-Released%20upon%20acceptance-lightgrey?logo=github&logoColor=white)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2611.32447-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.32447)   [![Paper](https://img.shields.io/badge/Paper-PDF-0065D3?logo=readthedocs&logoColor=white)](https://arxiv.org/pdf/2611.32447)   [![Code](https://img.shields.io/badge/Code-Released%20upon%20acceptance-lightgrey?logo=github&logoColor=white)]()
 
 </div>
 
-> 📄 Paper: [arXiv:2611.32447](https://arxiv.org/abs/2611.32447)
-
-> [!NOTE]
-> **Under review.** The full code will be released in this repository once the paper is accepted.
+**Under review.** The full code will be released in this repository once the paper is accepted.
 
 <p align="center"><img src="assets/fig1_motivation.png" width="100%" alt="Motivation"></p>
 <p align="center"><sub>Ego-view noise corrupts BEV histories — recovery alone is insufficient.</sub></p>
